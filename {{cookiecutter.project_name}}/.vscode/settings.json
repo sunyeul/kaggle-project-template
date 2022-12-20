@@ -1,0 +1,30 @@
+{
+    // linter: flake8
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=150",
+        "--ignore=E203, E266, E501, W503"
+    ],
+    "python.linting.mypyEnabled": false,
+    "python.linting.pylintEnabled": false,
+
+    // formatter: black
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+
+    // static type checker: pylance
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.completeFunctionParens": true,
+
+    // test setting: pytest
+    "python.testing.pytestArgs": [
+        ".tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+
+}

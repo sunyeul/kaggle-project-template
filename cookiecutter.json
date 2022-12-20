@@ -1,0 +1,7 @@
+{
+    "project_name": "Project Name",
+    "author": "Junhyeong Kim",
+    "email": "res1235@gmail.com",
+    "project_slug": "{{cookiecutter.project_name|lower|replace('-', '_')}}",
+    "project_description": "This is a template repository for Python projects that use Poetry for their dependency management."
+}
