@@ -1,6 +1,0 @@
-{
-    // formatter: black
-    "[python]": {
-        "editor.formatOnSave": true
-    },
-}
