@@ -1,13 +1,14 @@
 [project]
-name = "{{cookiecutter.project_slug}}"
+name = "kaggle-project-template"
 version = "0.1.0"
-description = "{{cookiecutter.project_description}}"
+description = "Add your description here"
 authors = [
-    { name = "{{cookiecutter.author}}", email = "{{cookiecutter.email}}" }
+    { name = "junhyeong.kim", email = "junhyeong.kim@brainpad.co.jp" }
 ]
 dependencies = [
     "kaggle>=1.5.16",
     "hydra-core>=1.3.2",
+    "dvc>=3.36.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.11"
@@ -19,7 +20,12 @@ build-backend = "hatchling.build"
 [tool.rye]
 managed = true
 dev-dependencies = [
+    "ipykernel>=6.28.0",
+    "black>=23.12.1"
 ]
 
 [tool.hatch.metadata]
 allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]

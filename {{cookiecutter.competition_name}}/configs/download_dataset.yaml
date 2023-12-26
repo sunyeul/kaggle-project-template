@@ -1,0 +1,4 @@
+defaults:
+  - _self_
+  - competition_info: {{cookiecutter.competition_name}}
+  - dir: local

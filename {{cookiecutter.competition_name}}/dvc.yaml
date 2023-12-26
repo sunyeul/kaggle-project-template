@@ -1,0 +1,7 @@
+stages:
+  download_dataset:
+    cmd: rye run python run/download_dataset.py
+    deps:
+      - run/download_dataset.py
+    outs:
+      - data/raw_data
