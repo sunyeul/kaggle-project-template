@@ -1,7 +1,8 @@
 {
+    "project_name": "Project Name",
+    "project_description": "This is a template repository for Python competitions.",
     "competition_name": "Competition Name",
     "author": "Junhyeong Kim",
     "email": "res1235@gmail.com",
-    "competition_slug": "{{cookiecutter.competition_name|lower|replace('-', '_')}}",
-    "competition_description": "This is a template repository for Python competitions that use Poetry for their dependency management."
+    "competition_slug": "{{cookiecutter.competition_name|lower|replace('-', '_')}}"
 }

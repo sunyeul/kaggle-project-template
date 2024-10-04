@@ -1,7 +1,7 @@
 [project]
-name = "{{cookiecutter.competition_name}}"
+name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
-description = "{{cookiecutter.competition_description}}"
+description = "{{cookiecutter.project_description}}"
 authors = [
     { name = "{{cookiecutter.author}}", email = "{{cookiecutter.email}}" }
 ]
